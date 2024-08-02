@@ -1,5 +1,7 @@
 [build]
-  functions = "netlify/functions"
+  command = "npm run build"
+  functions = "D:\\Program\\Bajaj Finserv\\bfhl-frontend\\netlify\\functions"
+  publish = "build"
 
 [[redirects]]
   from = "/api/*"
